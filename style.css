@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oleo+Script&display=swap');
+
+#uniqueElement {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#uniqueElement2 {
+    font-family: "Oleo Script", system-ui;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.resume {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Закругленные углы */
+}
+
+.profile {
+    display: flex;
+    align-items: center; /* Выравнивание по вертикали */
+    padding-bottom: 20px;
+    border-bottom: 2px solid #eee; /* Более выраженная граница */
+}
+
+.profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%; /* Круглая фотография */
+    margin-right: 20px;
+    border: 3px solid #ddd;
+}
+
+.profile-info h1 {
+    margin: 0;
+    font-size: 2.2em; /* Уменьшила размер заголовка */
+    color: #333;
+}
+
+.profile-info p {
+    margin: 5px 0;
+    color: #555; /* Более темный серый */
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    font-size: 1.6em; /* Уменьшила размер заголовка секции */
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px; /* Увеличила отступ снизу */
+}
+
+.experience, .education {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #ecffeb; /* Светлый фон для блоков */
+    border-radius: 6px;
+}
+
+.experience h3, .education h3 {
+    font-size: 1.1em; /* Уменьшила размер заголовка */
+    color: #333;
+    margin: 0;
+}
+
+.experience p, .education p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.experience ul {
+    padding-left: 25px;
+    color: #555;
+}
+
+.skills-section {
+    background-color: #e6f7ff; /* Цветной фон для секции навыков */
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #d0ebff; /* Более светлый цвет для элементов списка */
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #333;
+    font-size: 0.9em;
+}
+
+.contacts-section {
+    background-color: #fff0e6; /* Цветной фон для секции контактов */
+    padding: 20px;
+    border-radius: 6px;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;}
